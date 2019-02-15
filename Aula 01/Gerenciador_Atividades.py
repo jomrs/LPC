@@ -31,6 +31,9 @@ class Atividade:
     def finalizar_atividade(self):
         self.status = "Finalizada"
 
+class Endereco:
+    pass
+
 
 p = Projeto("Projeto1", "15-02-2019", "31-10-2018")
 pe = Pessoa("John", "03-10-1997")
