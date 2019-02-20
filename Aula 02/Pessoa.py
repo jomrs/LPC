@@ -40,7 +40,7 @@ class ArtigoAutor:
         self.autor = autor
 
     def __str__(self):
-        return "Artigo: " + 
+        return "Artigo: " + self.artigo + "\tAutor: " + self.autor
 
 class PessoaFisica(Pessoa):
 
@@ -56,6 +56,6 @@ class PessoaJuridica(Pessoa):
         self.cnpj = cnpj
 
     def __str__(self):
-        return "Nome: " + self.Pessoa.nome + "\nData Nascimento: " + self.Pessoa.dataNasc + "\nEvento:" + self.Pessoa.evento + "\mCNPJ:" + self.cnpj
+        return "Nome: " + self.Pessoa.nome + "\nData Nascimento: " + self.Pessoa.dataNasc + "\nEvento:" + self.Pessoa.evento + "\nCNPJ:" + self.cnpj
 
 
